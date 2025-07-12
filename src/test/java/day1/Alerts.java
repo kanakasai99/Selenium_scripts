@@ -78,12 +78,12 @@ public class Alerts {
 		
 		if ( txt.contains("Sai"))
 				{
-			System.out.println("Test Passes");
+			System.out.println("Test Passed");
 		}
 		else {
 			System.out.println("Test fails");
 		}
-		
+		driver.close();
 	}
 	
 
