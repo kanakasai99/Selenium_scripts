@@ -22,10 +22,11 @@ public class CapScreenshot {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		//driver.get("https://demo.nopcommerce.com/");
-		driver.get("https://www.flipkart.com/");
+		driver.get("https://www.barnesandnoble.com/");
 		driver.manage().window().maximize();
 		
-		//1) full page screenshot
+		//1) full page screensho
+		
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File sourcefile=ts.getScreenshotAs(OutputType.FILE);
 		File targetfile=new File(System.getProperty("user.dir")+"\\Screenshot\\flipcartmainpage.png");

@@ -27,7 +27,7 @@ public static void main(String[] args) throws IOException {
 	for(int r=0;r<=noOfRows;r++) {
 		XSSFRow row=sheet.getRow(r);
 		for(int c=0;c<noOfCells;c++) {
-		XSSFCell cell=	sheet.getRow(r).getCell(c);
+		XSSFCell cell=	row.getCell(c);
 		System.out.print(cell.toString()+"\t");
 		}
 		System.out.println();

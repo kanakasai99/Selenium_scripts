@@ -24,7 +24,7 @@ WebDriver driver=new ChromeDriver();
 		Thread.sleep(5000);
 	driver.switchTo().alert().accept();
 	
-	
+	driver.quit();;
 	}
 	
 

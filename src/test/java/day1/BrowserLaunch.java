@@ -11,7 +11,7 @@ public class BrowserLaunch {
 		
 		WebDriver driver= new ChromeDriver();
 		//ChromeDriver driver= new ChromeDriver();
-		driver.get("https://www.youtube.com/");
+		driver.get("https://www.barnesandnoble.com/");
 		driver.manage().window().maximize();
 		
 	/*	String status= driver.getTitle();
@@ -25,14 +25,14 @@ public class BrowserLaunch {
 		}
 		//System.out.println(status);*/
 		//Thread.sleep(5000);
-		WebElement search=driver.findElement(By.xpath("//input[@id='search']"));
-		search.sendKeys("Cocomelon");
+		//WebElement search=driver.findElement(By.xpath("//input[@id='search']"));
+		//search.sendKeys("Cocomelon");
 		
-		driver.findElement(By.xpath("//button[@id='search-icon-legacy']")).click();
+		//driver.findElement(By.xpath("//button[@id='search-icon-legacy']")).click();
 		
 		
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 		
-		driver.quit();
+		//driver.quit();
 		}
 }
